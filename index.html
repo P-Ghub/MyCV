@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philisani Nkqeto CV</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YourFontName&display=swap">
+
+    
+<!--Styles-->
+<style>
+    /* List Styles */
+    ul, ol {
+      list-style: none;
+    }
+
+    /* Inline CSS for sliding text animation */
+    .horizontal-moving-text {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, sans-serif; /* Specify a common font family */
+    }
+    .horizontal-moving-text span {
+      display: inline-block;
+      animation: moveHorizontalText 30s linear infinite;
+    }
+    @keyframes moveHorizontalText {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    
+    /* Moving font size */
+      /* bio Moving font size */
+      .bio-size {
+      font-size: 250px;
+    }
+
+        /* s.eng Moving font size */
+        .eng-size {
+      font-size: 400px;
+    }
+
+        /* Arch Moving font size */
+        .arch-size {
+      font-size: 300px;
+    }
+
+        /* linkedin Moving font size */
+        .link-size {
+      font-size: 400px;
+    }
+
+        /* experience Moving font size */
+        .exp-size {
+          font-size: 300px;
+    }
+
+        /* contact Moving font size */
+        .cont-size {
+          font-size: 250px;
+    }
+
+    /* background colours */
+    .bio-background {
+        background-color: #f7ffff; 
+      }
+    
+      .cover-background {
+        background-color: #f4f9fc; 
+      }
+    
+      .eng-background {
+        background-color: #d9f2f7;
+      }
+
+      .exp-background {
+        background-color: #fafafa;
+      }
+
+    /* responsive image height */
+      .row-image {
+        max-height: 100%;
+        width: auto;
+    }
+
+    /* text margining */
+      .text-content {
+          margin: 0; 
+      }
+
+    /* Font Style */
+      .font-style {
+        font-family: 'handjet', sans-serif; 
+    }
+
+</style>   
+</head>
+<body>
+    <main class="font-style text-secondary">
+
+        <!--Cover image-->
+        <section>
+            <div class="container" >
+                <div class="row align-items-end">
+                    <div class="col col-mid-10 mh-100 p-5" style="height:1200;">
+                        <img class="img-fluid row-image" src="face 10.jpg" alt="profile pic">
+                    </div>
+                    <span class="d-none d-sm-block col col-mid-2 text-center " style="height:auto;">                    
+                        <h1 class="fs-5 mb-5 text-secondary"> - Philisani Nkqeto | CV -</h1>
+                        <p class="text-warning">+</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!--Bio-->
+        <section>
+            <div class="container handjet-font">
+                <div class="row"> 
+                    <div class="col col-md-4 col-sm-6 bio-background" style="height:auto;">
+                        <h1 class="p-4 fs-3 ">Bio</h1>
+                        <p class="text-body-secondary">
+                            i am a software dev enthusiast with a background in design and architecture (built environment). I was particular drawn to tech through a curiousity about how the hell a computer works. after my first hello_world, i never looked back.
+                        </p>
+                    </div>
+                    <span class="d-none d-sm-block col col-sm-6 col-md-8 mh-100 bg-secondary bg-opacity-10 text-center" style="height:auto;">                    
+                        <h1 class="horizontal-moving-text bio-size text-white">
+                            <p class="ps-2 fs-2 text-secondary">+</p>
+                            <span> PHILISANI NKQETO</span>
+                        </h1>
+                    </span>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!--Software Eng Qualification-->
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-8 col-sm-6 mh-100 "  style="height:auto; background-color: hwb(205 95% 0%);">
+                    <div class="px-3 py-3">
+                        <h1 class="p-3 py-2 fs-3">Software Engineering</h1>
+                        <p class="p">
+                            <h3 class="fs-6">Hyperion Dev  |  Mar 2023 - Aug 2023 </h3>
+                            <ul class="px-0 py-2 ">
+                                <li>python</li>
+                                <li>agile</li>
+                                <li>deployment & maintenance practices</li>
+                                <li>html overview</li>
+                                <li>css overview</li>
+                                <li>bootstrap</li>
+                                <li>sql</li>
+                                <li>django</li>
+                                <li>git / github</li>
+                                <li>dockers</li>
+                                <li>nlp</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <span class="d-none d-sm-block col col-md-4 col-sm-6 mh-100 bg-warning bg-opacity-80" style="height:auto;">                  
+                    <h1 class="horizontal-moving-text eng-size text-white">
+                        <span>EDUCATION EDUCATION</span>
+                    </h1>
+                </span>
+            </div>
+        </div>
+
+        <!--Architecture Qualification-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <span class="d-none d-sm-block col col-md-3 col-sm-6 mh-100 bg-secondary bg-opacity-10" style="height: auto;">
+                        <h5 class=" fs-3">+</h5>                  
+                        <h1 class="horizontal-moving-text arch-size text-white">
+                            <span>EDUCATION</span>
+                        </h1>
+                    </span>
+                    <div class="col col-md-9 col-sm-6 mh-100 cover-" style="height:auto;">
+                        <div class="px-3 py-3">
+                            <h1 class="p-3 py-2 fs-3">Architectural Studies</h1>
+                            <p class="p">
+                                <h3 class="fs-6">University |  Feb 2015 - Nov 2021 </h3>
+                                <ul class="px-0 py-2">
+                                    <li>Bachelor of Architectural Studies | University of Cape Town</li>
+                                    <li>Bachelor of Architectural Studies (Hons) | Wits University</li>
+                                    <li>Master of Architecture (Prof) | Wits University</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Linkedin Learning Certificates-->
+        <section>
+            <div class="container">
+                <div class="row"> 
+                    <div class="col col-md-5 col-sm-6">
+                        <h1 class="p-4 fs-3">Linkedin Learning</h1>
+                            <h3 class="fs-6">Linkedin Leanrning |  Mar 2020 - current </h3>
+                                <ul class="px-0 py-2">
+                                    <li>programming fundamentals</li>
+                                    <li>python oop</li>
+                                    <li>agile</li>
+                                    <li>software design: fundamentals</li>
+                                    <li>software architecture foundations</li>
+                                    <li>window terminal skills</li>
+                                    <li>sql essential training</li>
+                                    <li>intro to wed development</li>
+                                    <li>django essential training</li>
+                                    <li>git essential training</li>
+                                </ul>
+                    </div>
+                    <span class="d-none d-sm-block col col-md-7 col-sm-6 mh-100 bg-warning p-2 bg-opacity-80" style="height:auto;">                    
+                        <h1 class="horizontal-moving-text link-size text-white">
+                            <span>EDUCATION</span>
+                        </h1>
+                    </span>
+                </div>
+            </div>
+    </section>
+
+            <!--Experience-->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <span class="d-none d-sm-block col col-md-6 col-sm-6 mh-100 exp-background p-2 bg-opacity-50" style="height:auto;">                    
+                            <h1 class="horizontal-moving-text exp-size text-white">
+                                <span>EXPERIENCE</span>
+                            </h1>
+                        </span> 
+                        <div class="col col-md-6 col-sm-6 bio-background">
+                            <h1 class="p-4 fs-3">Experience</h1>
+                            <h3 class="fs-6">Boogertman & Partners |  Feb 2019 - Dec 2019 </h3>
+                            <p>
+                                intership
+                            </p>
+
+                            <h3 class="fs-6">SVA International |  Mar 2022 - Current </h3>
+                            <p>
+                                candidate architect
+                            </p>   
+                            <h5 class="text ```/*-warning fs-3">+</h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Contact-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <span class="d-none d-sm-block col col-md-3 col-sm-6 mh-100 bg-secondary bg-opacity-10" style="height:auto;">                  
+                        <h1 class="horizontal-moving-text cont-size text-white">
+                            <span>CONTACT CONTACT</span>
+                        </h1>
+                    </span>
+                    <div class="col col-md-9 col-sm-6 mh-100 cover-background" style="height:auto;">
+                        <div class="px-3 py-3">
+                            <h1 class="p-3 py-2 fs-3">Contact</h1>
+                            <p class="p">
+                                <h3 class="fs-6">mail</h3>
+                                <p>
+                                    philisaninkqeto@gmail.com
+                                </p>
+                                <h3 class="fs-6">linkedin</h3>
+                                <p>
+                                    <a href="https://za.linkedin.com/in/philisani-nkqeto-743541212">https://za.linkedin.com/in/philisani-nkqeto-743541212</a>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <div class="container " style="height: auto;">
+                <div class="row"> 
+                    <div class="col " style="height: 80px;"></div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
